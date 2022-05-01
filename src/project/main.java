@@ -1,10 +1,10 @@
 package project;
 
-import java.util.Scanner;
+import java.util.Scanner;// importing Scanner class to receive user input
 
-public class main {
-    public static void main(String[] args) {
-        while (true){
+public class main { //main class
+    public static void main(String[] args) { // main method
+        while (true){ // using while loop to keep running the application till the user exits
             System.out.println();
             System.out.println("Select what you would like to convert : ");
             Scanner sc = new Scanner(System.in);
@@ -17,10 +17,10 @@ public class main {
             System.out.println("Enter 7 for Binary addition");
             System.out.println("Enter 8 to Exit the program");
             System.out.println();
-            System.out.print("Your input : ");
-            try {
-                int input = sc.nextInt();
-                switch (input) {
+            System.out.print("Your input : "); // expecting user input
+            try { // exception handling
+                int input = sc.nextInt(); // receiving user input and storing it in a variable
+                switch (input) { // using switch statement
                     case 1:
                         BinaryToDecimal binaryToDecimal = new BinaryToDecimal();
                         binaryToDecimal.binaryToDecimal();
