@@ -11,14 +11,13 @@ public class main {
             System.out.println("Enter 1 for Binary to Decimal");
             System.out.println("Enter 2 for Decimal to Binary");
             System.out.println("Enter 3 for Decimal to Hexadecimal");
-            System.out.println("Enter 4 for Hexadecimal to Decimal");
+            System.out.println("Enter 4 for Hexadecimal to Decimal") ;
             System.out.println("Enter 5 for Binary to Hexadecimal");
             System.out.println("Enter 6 for Hexadecimal to Binary");
             System.out.println("Enter 7 for Binary addition");
             System.out.println("Enter 8 to Exit the program");
             System.out.println();
             System.out.print("Your input : ");
-
             try {
                 int input = sc.nextInt();
                 switch (input) {
